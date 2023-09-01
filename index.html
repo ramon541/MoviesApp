@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Movie App</title>
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <aside class="movie-list">
+        <div class="search-box">
+          <h1 class="title">Movie List</h1>
+
+          <form id="search-form">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Procure um filme..."
+            />
+            <button class="search-btn" type="submit">Procurar</button>
+          </form>
+        </div>
+
+        <div id="result-search"></div>
+      </aside>
+
+      <aside class="watch-list">
+        <div class="search-box">
+          <h1 class="title">Watch List</h1>
+          <div class="options">
+            <button class="to-attend">Assistir</button>
+            <button class="watched">Assistido</button>
+          </div>
+        </div>
+
+        <div id="result-list">
+          <p class="no-movies">Nada por aqui</p>
+        </div>
+      </aside>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./js/main.js"></script>
+  </body>
 </html>

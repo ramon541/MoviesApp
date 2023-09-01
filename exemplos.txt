@@ -1,0 +1,4 @@
+https://www.omdbapi.com
+Key api: d255ae32
+
+Ex de requisição: https://www.omdbapi.com/?t=Interstellar&plot=full&apikey=d255ae32&/
