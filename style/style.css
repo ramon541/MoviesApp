@@ -184,6 +184,7 @@ input::placeholder{
   font-weight: 900;
   color: #c5c5c5;
 }
+
 .warning{
   color: #ff0000;
 }
@@ -193,6 +194,10 @@ input::placeholder{
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 .add-movie{
@@ -237,5 +242,33 @@ input::placeholder{
   gap: 5px;
   text-align: justify;
   word-wrap: break-word;
+  font-size: 12px;
+}
+
+#movies-container{
+  width: 90%;
+}
+
+.movie-to-watch > img{
+  width: 70px;
+  height: 100%;
+  border-radius: 8px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.movie-to-watch{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 10px 5px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px  #c5c5c5;
+}
+.movie-name{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.movie-tags{
   font-size: 12px;
 }

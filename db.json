@@ -1,8 +1,7 @@
 {
-    "watchList" : [
-        {
-            "id" : 1,
-            "title" : "test"
-        }    
-    ]
+  "watchList": [
+  ],
+  "watchedList" : [
+
+  ]
 }
