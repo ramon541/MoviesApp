@@ -1,7 +1,26 @@
 {
   "watchList": [
+    {
+      "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Interstellar",
+      "genre": "Adventure, Drama, Sci-Fi",
+      "runtime": "169 min",
+      "id": 1
+    },
+    {
+      "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "title": "Joker",
+      "genre": "Crime, Drama, Thriller",
+      "runtime": "122 min",
+      "id": 2
+    },
+    {
+      "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Interstellar",
+      "genre": "Adventure, Drama, Sci-Fi",
+      "runtime": "169 min",
+      "id": 3
+    }
   ],
-  "watchedList" : [
-
-  ]
+  "watchedList": []
 }
